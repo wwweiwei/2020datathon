@@ -1,0 +1,800 @@
+<!doctype html>
+<html lang="en">
+
+<nav class="hero-nav container px-4 px-lg-0 mx-auto">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- font awesome 5 free -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- Poppins font from Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/app.css">
+
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+    <title>2020Datathon_4W2H</title>
+    </head>
+</nav>
+
+<body>
+
+<!--milk_start-->
+
+<div id="product" class="block-5 space-between-blocks">
+
+<div class="container">
+    <nav class="hero-nav container px-4 px-lg-0 mx-auto">
+        <ul class="nav w-100 list-unstyled align-items-center p-0">
+          <li class="hero-nav__item">
+            <img class="block-44__logo" src="assets/imgs/logo.svg">
+            <a> DraMa-行銷策略顧問 </a>
+          </li>
+          <li id="hero-menu" class="flex-grow-1 hero__nav-list hero__nav-list--mobile-menu ft-menu">
+            
+            <li class="hero-nav__item">
+                <a href="index.html" class="hero-nav__link">Menu</a>
+            </li>
+
+            <ul class="hero__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0">
+              <li class="flex-grow-1">
+                <ul class="nav nav--lg-side list-unstyled align-items-center p-0">
+                  <li class="hero-nav__item">
+                    <a href="#contact-us" class="hero-nav__link">Contact Us</a>
+                  </li>
+                  <li class="hero-nav__item">
+                    <a href="#faq" class="hero-nav__link">FAQ</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+              class="ft-menu__close-btn animated">
+              <svg class="bi bi-x" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z"
+                  clip-rule="evenodd" />
+                <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z"
+                  clip-rule="evenodd" />
+              </svg>
+            </button>
+          </li>
+          <li class="d-lg-none flex-grow-1 d-flex flex-row-reverse hero-nav__item">
+            <button onclick="document.querySelector('#hero-menu').classList.toggle('ft-menu--js-show')"
+              class="text-center px-2">
+              <i class="fas fa-bars"></i>
+            </button>
+          </li>
+        </ul>
+      </nav> 
+<div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
+<br>
+<h1 class="block__title mb-3">2020/01-06<br> 台灣<span class="highlight">牛奶</span>產業行銷策略分析</h1>
+
+</div>
+<div class = "justify-content-center">
+<div class="hero__btns-container ">
+    <a class="hero__btn btn btn-secondary mx-lg-3" href="./milk_3.html">
+    產業概況
+    </a>  
+    <a class="hero__btn btn btn-primary mb-2 mb-lg-0" href="./milk.html">
+    客戶輪廓
+    </a>
+    <a class="hero__btn btn btn-secondary mb-2 mb-lg-0" href="./milk_1.html">
+    2020/01-02客群流量分析
+    </a>
+    <a class="hero__btn btn btn-primary mx-lg-3" href="./milk_2.html">
+    2020前半年客群流量分析
+    </a>
+</div>
+</div>
+        
+<p class="block__pre-title mb-2"></p>
+
+<p class="block__paragraph mb-0">
+
+    <div id="013bb78e8c5642fb8f88d3d1180865a4" class="chart-container" style="width:1300px; height:500px;"></div>
+    <script>
+        var chart_013bb78e8c5642fb8f88d3d1180865a4 = echarts.init(
+            document.getElementById('013bb78e8c5642fb8f88d3d1180865a4'), 'white', {renderer: 'canvas'});
+        var option_013bb78e8c5642fb8f88d3d1180865a4 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "sankey",
+            "data": [
+                {
+                    "name": "1\u6708\u745e\u7a57"
+                },
+                {
+                    "name": "1\u6708\u5149\u6cc9"
+                },
+                {
+                    "name": "1\u6708\u7d71\u4e00"
+                },
+                {
+                    "name": "1\u6708\u7fa9\u7f8e"
+                },
+                {
+                    "name": "1\u6708\u521d\u9e7f"
+                },
+                {
+                    "name": "1\u6708\u4e00\u756a\u9bae"
+                },
+                {
+                    "name": "1\u6708\u4e73\u9999\u4e16\u5bb6"
+                },
+                {
+                    "name": "1\u6708\u6797\u9cf3\u71df"
+                },
+                {
+                    "name": "1\u6708\u9ad8\u5927"
+                },
+                {
+                    "name": "1\u6708\u53f0\u8fb2"
+                },
+                {
+                    "name": "2\u6708\u745e\u7a57"
+                },
+                {
+                    "name": "2\u6708\u5149\u6cc9"
+                },
+                {
+                    "name": "2\u6708\u7d71\u4e00"
+                },
+                {
+                    "name": "2\u6708\u7fa9\u7f8e"
+                },
+                {
+                    "name": "2\u6708\u521d\u9e7f"
+                },
+                {
+                    "name": "2\u6708\u4e00\u756a\u9bae"
+                },
+                {
+                    "name": "2\u6708\u4e73\u9999\u4e16\u5bb6"
+                },
+                {
+                    "name": "2\u6708\u6797\u9cf3\u71df"
+                },
+                {
+                    "name": "2\u6708\u9ad8\u5927"
+                },
+                {
+                    "name": "2\u6708\u53f0\u8fb2"
+                }
+            ],
+            "links": [
+                {
+                    "source": "1\u6708\u745e\u7a57",
+                    "target": "2\u6708\u745e\u7a57",
+                    "value": 406.8702341398128
+                },
+                {
+                    "source": "1\u6708\u745e\u7a57",
+                    "target": "2\u6708\u5149\u6cc9",
+                    "value": 32.17316342949989
+                },
+                {
+                    "source": "1\u6708\u745e\u7a57",
+                    "target": "2\u6708\u7d71\u4e00",
+                    "value": 19.807999066275038
+                },
+                {
+                    "source": "1\u6708\u745e\u7a57",
+                    "target": "2\u6708\u7fa9\u7f8e",
+                    "value": 19.959125226898006
+                },
+                {
+                    "source": "1\u6708\u745e\u7a57",
+                    "target": "2\u6708\u521d\u9e7f",
+                    "value": 1.8228286390291055
+                },
+                {
+                    "source": "1\u6708\u745e\u7a57",
+                    "target": "2\u6708\u4e00\u756a\u9bae",
+                    "value": 4.0550933333749795
+                },
+                {
+                    "source": "1\u6708\u745e\u7a57",
+                    "target": "2\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "value": 5.216611604263523
+                },
+                {
+                    "source": "1\u6708\u745e\u7a57",
+                    "target": "2\u6708\u6797\u9cf3\u71df",
+                    "value": 14.328751206956637
+                },
+                {
+                    "source": "1\u6708\u745e\u7a57",
+                    "target": "2\u6708\u9ad8\u5927",
+                    "value": 0.9202981370080936
+                },
+                {
+                    "source": "1\u6708\u745e\u7a57",
+                    "target": "2\u6708\u53f0\u8fb2",
+                    "value": 1.4078479730965743
+                },
+                {
+                    "source": "1\u6708\u5149\u6cc9",
+                    "target": "2\u6708\u745e\u7a57",
+                    "value": 32.17316342949989
+                },
+                {
+                    "source": "1\u6708\u5149\u6cc9",
+                    "target": "2\u6708\u5149\u6cc9",
+                    "value": 255.0213099716938
+                },
+                {
+                    "source": "1\u6708\u5149\u6cc9",
+                    "target": "2\u6708\u7d71\u4e00",
+                    "value": 16.675697784285187
+                },
+                {
+                    "source": "1\u6708\u5149\u6cc9",
+                    "target": "2\u6708\u7fa9\u7f8e",
+                    "value": 15.530592647439473
+                },
+                {
+                    "source": "1\u6708\u5149\u6cc9",
+                    "target": "2\u6708\u521d\u9e7f",
+                    "value": 1.9094294678385588
+                },
+                {
+                    "source": "1\u6708\u5149\u6cc9",
+                    "target": "2\u6708\u4e00\u756a\u9bae",
+                    "value": 2.671003196895437
+                },
+                {
+                    "source": "1\u6708\u5149\u6cc9",
+                    "target": "2\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "value": 6.957425009424944
+                },
+                {
+                    "source": "1\u6708\u5149\u6cc9",
+                    "target": "2\u6708\u6797\u9cf3\u71df",
+                    "value": 14.48445706143695
+                },
+                {
+                    "source": "1\u6708\u5149\u6cc9",
+                    "target": "2\u6708\u9ad8\u5927",
+                    "value": 0.9582442837102448
+                },
+                {
+                    "source": "1\u6708\u5149\u6cc9",
+                    "target": "2\u6708\u53f0\u8fb2",
+                    "value": 3.0500413127170805
+                },
+                {
+                    "source": "1\u6708\u7d71\u4e00",
+                    "target": "2\u6708\u745e\u7a57",
+                    "value": 19.807999066275038
+                },
+                {
+                    "source": "1\u6708\u7d71\u4e00",
+                    "target": "2\u6708\u5149\u6cc9",
+                    "value": 16.675697784285187
+                },
+                {
+                    "source": "1\u6708\u7d71\u4e00",
+                    "target": "2\u6708\u7d71\u4e00",
+                    "value": 100.77504208659903
+                },
+                {
+                    "source": "1\u6708\u7d71\u4e00",
+                    "target": "2\u6708\u7fa9\u7f8e",
+                    "value": 5.71659763736295
+                },
+                {
+                    "source": "1\u6708\u7d71\u4e00",
+                    "target": "2\u6708\u521d\u9e7f",
+                    "value": 0.4872568487909397
+                },
+                {
+                    "source": "1\u6708\u7d71\u4e00",
+                    "target": "2\u6708\u4e00\u756a\u9bae",
+                    "value": 0.6302791450592888
+                },
+                {
+                    "source": "1\u6708\u7d71\u4e00",
+                    "target": "2\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "value": 1.1155968304991264
+                },
+                {
+                    "source": "1\u6708\u7d71\u4e00",
+                    "target": "2\u6708\u6797\u9cf3\u71df",
+                    "value": 4.502194124444106
+                },
+                {
+                    "source": "1\u6708\u7d71\u4e00",
+                    "target": "2\u6708\u9ad8\u5927",
+                    "value": 0.16183856957615336
+                },
+                {
+                    "source": "1\u6708\u7d71\u4e00",
+                    "target": "2\u6708\u53f0\u8fb2",
+                    "value": 0.45107846374507
+                },
+                {
+                    "source": "1\u6708\u7fa9\u7f8e",
+                    "target": "2\u6708\u745e\u7a57",
+                    "value": 19.959125226898006
+                },
+                {
+                    "source": "1\u6708\u7fa9\u7f8e",
+                    "target": "2\u6708\u5149\u6cc9",
+                    "value": 15.530592647439473
+                },
+                {
+                    "source": "1\u6708\u7fa9\u7f8e",
+                    "target": "2\u6708\u7d71\u4e00",
+                    "value": 5.71659763736295
+                },
+                {
+                    "source": "1\u6708\u7fa9\u7f8e",
+                    "target": "2\u6708\u7fa9\u7f8e",
+                    "value": 146.04023222419198
+                },
+                {
+                    "source": "1\u6708\u7fa9\u7f8e",
+                    "target": "2\u6708\u521d\u9e7f",
+                    "value": 1.4668648555228643
+                },
+                {
+                    "source": "1\u6708\u7fa9\u7f8e",
+                    "target": "2\u6708\u4e00\u756a\u9bae",
+                    "value": 3.248768124643084
+                },
+                {
+                    "source": "1\u6708\u7fa9\u7f8e",
+                    "target": "2\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "value": 1.967640839096937
+                },
+                {
+                    "source": "1\u6708\u7fa9\u7f8e",
+                    "target": "2\u6708\u6797\u9cf3\u71df",
+                    "value": 8.021358748261216
+                },
+                {
+                    "source": "1\u6708\u7fa9\u7f8e",
+                    "target": "2\u6708\u9ad8\u5927",
+                    "value": 0.34785714285714286
+                },
+                {
+                    "source": "1\u6708\u7fa9\u7f8e",
+                    "target": "2\u6708\u53f0\u8fb2",
+                    "value": 1.5522022779743776
+                },
+                {
+                    "source": "1\u6708\u521d\u9e7f",
+                    "target": "2\u6708\u745e\u7a57",
+                    "value": 1.8228286390291055
+                },
+                {
+                    "source": "1\u6708\u521d\u9e7f",
+                    "target": "2\u6708\u5149\u6cc9",
+                    "value": 1.9094294678385588
+                },
+                {
+                    "source": "1\u6708\u521d\u9e7f",
+                    "target": "2\u6708\u7d71\u4e00",
+                    "value": 0.4872568487909397
+                },
+                {
+                    "source": "1\u6708\u521d\u9e7f",
+                    "target": "2\u6708\u7fa9\u7f8e",
+                    "value": 1.4668648555228643
+                },
+                {
+                    "source": "1\u6708\u521d\u9e7f",
+                    "target": "2\u6708\u521d\u9e7f",
+                    "value": 17.507808263758353
+                },
+                {
+                    "source": "1\u6708\u521d\u9e7f",
+                    "target": "2\u6708\u4e00\u756a\u9bae",
+                    "value": 0.07700197238658778
+                },
+                {
+                    "source": "1\u6708\u521d\u9e7f",
+                    "target": "2\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "value": 0.25
+                },
+                {
+                    "source": "1\u6708\u521d\u9e7f",
+                    "target": "2\u6708\u6797\u9cf3\u71df",
+                    "value": 0.6805555555555556
+                },
+                {
+                    "source": "1\u6708\u521d\u9e7f",
+                    "target": "2\u6708\u9ad8\u5927",
+                    "value": 0.12861570247933884
+                },
+                {
+                    "source": "1\u6708\u521d\u9e7f",
+                    "target": "2\u6708\u53f0\u8fb2",
+                    "value": 0.0
+                },
+                {
+                    "source": "1\u6708\u4e00\u756a\u9bae",
+                    "target": "2\u6708\u745e\u7a57",
+                    "value": 4.0550933333749795
+                },
+                {
+                    "source": "1\u6708\u4e00\u756a\u9bae",
+                    "target": "2\u6708\u5149\u6cc9",
+                    "value": 2.671003196895437
+                },
+                {
+                    "source": "1\u6708\u4e00\u756a\u9bae",
+                    "target": "2\u6708\u7d71\u4e00",
+                    "value": 0.6302791450592888
+                },
+                {
+                    "source": "1\u6708\u4e00\u756a\u9bae",
+                    "target": "2\u6708\u7fa9\u7f8e",
+                    "value": 3.248768124643084
+                },
+                {
+                    "source": "1\u6708\u4e00\u756a\u9bae",
+                    "target": "2\u6708\u521d\u9e7f",
+                    "value": 0.07700197238658778
+                },
+                {
+                    "source": "1\u6708\u4e00\u756a\u9bae",
+                    "target": "2\u6708\u4e00\u756a\u9bae",
+                    "value": 26.670801936580194
+                },
+                {
+                    "source": "1\u6708\u4e00\u756a\u9bae",
+                    "target": "2\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "value": 0.22927332403244302
+                },
+                {
+                    "source": "1\u6708\u4e00\u756a\u9bae",
+                    "target": "2\u6708\u6797\u9cf3\u71df",
+                    "value": 0.7848228091268005
+                },
+                {
+                    "source": "1\u6708\u4e00\u756a\u9bae",
+                    "target": "2\u6708\u9ad8\u5927",
+                    "value": 0.41000000000000003
+                },
+                {
+                    "source": "1\u6708\u4e00\u756a\u9bae",
+                    "target": "2\u6708\u53f0\u8fb2",
+                    "value": 0.25967651229888994
+                },
+                {
+                    "source": "1\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "target": "2\u6708\u745e\u7a57",
+                    "value": 5.216611604263523
+                },
+                {
+                    "source": "1\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "target": "2\u6708\u5149\u6cc9",
+                    "value": 6.957425009424944
+                },
+                {
+                    "source": "1\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "target": "2\u6708\u7d71\u4e00",
+                    "value": 1.1155968304991264
+                },
+                {
+                    "source": "1\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "target": "2\u6708\u7fa9\u7f8e",
+                    "value": 1.967640839096937
+                },
+                {
+                    "source": "1\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "target": "2\u6708\u521d\u9e7f",
+                    "value": 0.25
+                },
+                {
+                    "source": "1\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "target": "2\u6708\u4e00\u756a\u9bae",
+                    "value": 0.22927332403244302
+                },
+                {
+                    "source": "1\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "target": "2\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "value": 27.448309679816298
+                },
+                {
+                    "source": "1\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "target": "2\u6708\u6797\u9cf3\u71df",
+                    "value": 1.442231173233289
+                },
+                {
+                    "source": "1\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "target": "2\u6708\u9ad8\u5927",
+                    "value": 0.06611570247933884
+                },
+                {
+                    "source": "1\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "target": "2\u6708\u53f0\u8fb2",
+                    "value": 0.0096
+                },
+                {
+                    "source": "1\u6708\u6797\u9cf3\u71df",
+                    "target": "2\u6708\u745e\u7a57",
+                    "value": 14.328751206956637
+                },
+                {
+                    "source": "1\u6708\u6797\u9cf3\u71df",
+                    "target": "2\u6708\u5149\u6cc9",
+                    "value": 14.48445706143695
+                },
+                {
+                    "source": "1\u6708\u6797\u9cf3\u71df",
+                    "target": "2\u6708\u7d71\u4e00",
+                    "value": 4.502194124444106
+                },
+                {
+                    "source": "1\u6708\u6797\u9cf3\u71df",
+                    "target": "2\u6708\u7fa9\u7f8e",
+                    "value": 8.021358748261216
+                },
+                {
+                    "source": "1\u6708\u6797\u9cf3\u71df",
+                    "target": "2\u6708\u521d\u9e7f",
+                    "value": 0.6805555555555556
+                },
+                {
+                    "source": "1\u6708\u6797\u9cf3\u71df",
+                    "target": "2\u6708\u4e00\u756a\u9bae",
+                    "value": 0.7848228091268005
+                },
+                {
+                    "source": "1\u6708\u6797\u9cf3\u71df",
+                    "target": "2\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "value": 1.442231173233289
+                },
+                {
+                    "source": "1\u6708\u6797\u9cf3\u71df",
+                    "target": "2\u6708\u6797\u9cf3\u71df",
+                    "value": 126.37094098805882
+                },
+                {
+                    "source": "1\u6708\u6797\u9cf3\u71df",
+                    "target": "2\u6708\u9ad8\u5927",
+                    "value": 0.29081632653061223
+                },
+                {
+                    "source": "1\u6708\u6797\u9cf3\u71df",
+                    "target": "2\u6708\u53f0\u8fb2",
+                    "value": 0.42677861573830556
+                },
+                {
+                    "source": "1\u6708\u9ad8\u5927",
+                    "target": "2\u6708\u745e\u7a57",
+                    "value": 0.9202981370080936
+                },
+                {
+                    "source": "1\u6708\u9ad8\u5927",
+                    "target": "2\u6708\u5149\u6cc9",
+                    "value": 0.9582442837102448
+                },
+                {
+                    "source": "1\u6708\u9ad8\u5927",
+                    "target": "2\u6708\u7d71\u4e00",
+                    "value": 0.16183856957615336
+                },
+                {
+                    "source": "1\u6708\u9ad8\u5927",
+                    "target": "2\u6708\u7fa9\u7f8e",
+                    "value": 0.34785714285714286
+                },
+                {
+                    "source": "1\u6708\u9ad8\u5927",
+                    "target": "2\u6708\u521d\u9e7f",
+                    "value": 0.12861570247933884
+                },
+                {
+                    "source": "1\u6708\u9ad8\u5927",
+                    "target": "2\u6708\u4e00\u756a\u9bae",
+                    "value": 0.41000000000000003
+                },
+                {
+                    "source": "1\u6708\u9ad8\u5927",
+                    "target": "2\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "value": 0.06611570247933884
+                },
+                {
+                    "source": "1\u6708\u9ad8\u5927",
+                    "target": "2\u6708\u6797\u9cf3\u71df",
+                    "value": 0.29081632653061223
+                },
+                {
+                    "source": "1\u6708\u9ad8\u5927",
+                    "target": "2\u6708\u9ad8\u5927",
+                    "value": 5.712045115972665
+                },
+                {
+                    "source": "1\u6708\u9ad8\u5927",
+                    "target": "2\u6708\u53f0\u8fb2",
+                    "value": 0.2222222222222222
+                },
+                {
+                    "source": "1\u6708\u53f0\u8fb2",
+                    "target": "2\u6708\u745e\u7a57",
+                    "value": 1.4078479730965743
+                },
+                {
+                    "source": "1\u6708\u53f0\u8fb2",
+                    "target": "2\u6708\u5149\u6cc9",
+                    "value": 3.0500413127170805
+                },
+                {
+                    "source": "1\u6708\u53f0\u8fb2",
+                    "target": "2\u6708\u7d71\u4e00",
+                    "value": 0.45107846374507
+                },
+                {
+                    "source": "1\u6708\u53f0\u8fb2",
+                    "target": "2\u6708\u7fa9\u7f8e",
+                    "value": 1.5522022779743776
+                },
+                {
+                    "source": "1\u6708\u53f0\u8fb2",
+                    "target": "2\u6708\u521d\u9e7f",
+                    "value": 0.0
+                },
+                {
+                    "source": "1\u6708\u53f0\u8fb2",
+                    "target": "2\u6708\u4e00\u756a\u9bae",
+                    "value": 0.25967651229888994
+                },
+                {
+                    "source": "1\u6708\u53f0\u8fb2",
+                    "target": "2\u6708\u4e73\u9999\u4e16\u5bb6",
+                    "value": 0.0096
+                },
+                {
+                    "source": "1\u6708\u53f0\u8fb2",
+                    "target": "2\u6708\u6797\u9cf3\u71df",
+                    "value": 0.42677861573830556
+                },
+                {
+                    "source": "1\u6708\u53f0\u8fb2",
+                    "target": "2\u6708\u9ad8\u5927",
+                    "value": 0.2222222222222222
+                },
+                {
+                    "source": "1\u6708\u53f0\u8fb2",
+                    "target": "2\u6708\u53f0\u8fb2",
+                    "value": 16.831569785383955
+                }
+            ],
+            "left": "5%",
+            "top": "5%",
+            "right": "20%",
+            "bottom": "5%",
+            "nodeWidth": 20,
+            "nodeGap": 10,
+            "nodeAlign": "justify",
+            "layoutIteration": 32,
+            "orient": "horizontal",
+            "draggable": true,
+            "focusNodeAdjacency": false,
+            "label": {
+                "show": true,
+                "position": "right",
+                "color": "white",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.6,
+                "type": "solid",
+                "color": "source"
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_013bb78e8c5642fb8f88d3d1180865a4.setOption(option_013bb78e8c5642fb8f88d3d1180865a4);
+    </script>
+
+</p>
+
+<!--milk_end-->
+
+
+
+    <script src="assets/app.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
